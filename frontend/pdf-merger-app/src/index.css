@@ -1,0 +1,86 @@
+
+.pdf-merger-container {
+    width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 12px;
+    background-color: #f7f8fc;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.pdf-merger-title {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+.pdf-merger-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.file-input-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.file-upload-label {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.file-upload-label:hover {
+    background-color: #0056b3;
+}
+
+.file-input {
+    display: none;
+}
+
+.submit-button {
+    background-color: #28a745;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #218838;
+}
+
+.preview-section {
+    margin-top: 20px;
+}
+
+.preview-section h2 {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.file-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.file-item {
+    font-size: 14px;
+    color: #444;
+    background-color: #e9ecef;
+    margin: 5px 0;
+    padding: 5px;
+    border-radius: 4px;
+}
